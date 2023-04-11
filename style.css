@@ -2,6 +2,7 @@
 
 :root {
   --main-color: rgb(135, 206, 235, 0.2);
+  --blue-color: #45aaf2;
   --green-color: rgba(19, 132, 6);
   --border-color: 0.1rem solid rgb(0, 0, 0, 1);
   --black-color: rgb(0, 0, 0);
@@ -49,10 +50,10 @@ section {
   cursor: pointer;
 }
 .btn:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .heading {
-  color: var(--border-color);
+  color: #fff;
   text-transform: capitalize;
   font-size: 3rem;
   margin-bottom: 2rem;
@@ -72,9 +73,8 @@ section {
 }
 /* map start */
 .svg-turkiye-haritasi {
-  max-width: 1140px;
-  margin: 150px auto 50px;
   text-align: center;
+  margin-top: 110px;
 }
 .svg-turkiye-haritasi svg {
   width: 100%;
@@ -87,7 +87,7 @@ section {
 .il-isimleri div {
   font-family: "Open Sans";
   display: inline-block;
-  background: rgb(135, 206, 235, 0.9);
+  background: var(--blue-color);
   color: #fff;
   padding: 8px 16px;
   -webkit-border-radius: 4px;
@@ -96,10 +96,10 @@ section {
 }
 #svg-turkiye-haritasi path {
   cursor: pointer;
-  fill: green;
+  fill: var(--green-color);
 }
 #svg-turkiye-haritasi path:hover {
-  fill: rgb(203, 22, 22);
+  fill: #c23616;
 }
 #guney-kibris {
   pointer-events: none;
@@ -131,7 +131,7 @@ section {
 .header .navbar .active,
 .header .navbar a:hover {
   border-bottom: 0.3rem solid transparent;
-  border-color: green;
+  border-color: var(--green-color);
   padding-bottom: 0.1rem;
 }
 
@@ -149,7 +149,7 @@ section {
   background: url(./img/kamp.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  margin-top: -14.5rem;
+  margin-top: -10.5rem;
   display: flex;
   align-items: center;
 }
@@ -190,7 +190,7 @@ section {
   text-align: center;
   margin-top: -2.8rem;
   text-transform: capitalize;
-  color: green;
+  color: var(--green-color);
 }
 .cities .box-container {
   display: grid;
@@ -200,10 +200,18 @@ section {
 
 /* cities end */
 /* about-us start */
+.about {
+  padding: 100px;
+}
 .about .row {
   display: flex;
   flex-wrap: wrap;
   column-gap: 2rem;
+}
+.about .row .btn {
+  background-color: #fff;
+  color: var(--green-color);
+  font-weight: bold;
 }
 .about .row .image {
   flex: 1 1 15rem;
@@ -226,9 +234,14 @@ section {
 /* about-us end */
 
 /* contact start */
+
+.contact {
+  padding: 100px;
+}
 .contact .row {
   display: flex;
-  background-color: green;
+  background-color: var(--green-color);
+  color: #fff;
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -274,7 +287,7 @@ section {
 /* contact end */
 /* footer start */
 .footer {
-  background-color: var(--black-color);
+  background-color: var(--green-color);
   text-align: center;
 }
 .footer .search {
@@ -286,7 +299,7 @@ section {
   width: 30rem;
 }
 .footer .search .btn-primary {
-  background-color: var(--green-color);
+  background-color: var(--blue-color);
   padding: 1rem 2rem;
   margin-left: 1rem;
 }
@@ -299,12 +312,12 @@ section {
   line-height: 5rem;
   color: #fff;
   font-size: 2rem;
-  border: var(--border-color);
+  border: 0.05rem solid white;
   border-radius: 50%;
-  margin: 0.3;
+  margin: 0.4rem;
 }
 .footer .share a:hover {
-  background-color: var(--green-color);
+  background-color: var(--blue-color);
 }
 .footer .links {
   display: flex;
@@ -313,20 +326,20 @@ section {
   gap: 1rem;
 }
 .footer .links a {
-  background-color: var(--green-color);
+  background-color: white;
   padding: 1rem 2.75rem;
-  color: #fff;
+  color: var(--blue-color);
   font-size: 2rem;
-  border: var(--black-color);
+  border: var(--blue-color);
   border-radius: 30rem;
   padding: 1rem;
 }
 .footer .links a:hover {
-  border-color: var(--main-color);
+  border-color: var(--blue-color);
   opacity: 0.7;
 }
 .footer .links a.active {
-  border-color: var(--main-color);
+  border-color: var(--blue-color);
 }
 .footer .credit {
   font-size: 2rem;
@@ -335,6 +348,7 @@ section {
   padding-top: 1.5rem;
 }
 .footer .credit span {
-  color: var(--green-color);
+  font-weight: bold;
+  color: var(--blue-color);
 }
 /* footer end */
