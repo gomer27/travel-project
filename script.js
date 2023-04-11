@@ -1,7 +1,9 @@
-function svgturkiyeharitasi() {
-  const element = document.querySelector("#svg-turkiye-haritasi");
-  const info = document.querySelector(".il-isimleri");
-
+const element = document.querySelector("#turkiye-haritasi");
+const info = document.querySelector(".il-isimleri");
+document
+  .querySelector("#turkiye-haritasi")
+  .addEventListener("click", turkiyeharitasi);
+function turkiyeharitasi() {
   element.addEventListener("mouseover", function (event) {
     if (
       event.target.tagName === "path" &&
