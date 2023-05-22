@@ -18,32 +18,35 @@
     <!-- header start -->
     <header class="header">
       <a href="#" class="logo">
-        <img src="./img/araba.jpg" alt="logo" />
+        <img src="./img/logo2.png" alt="logo" />
       </a>
       <nav class="navbar">
-        <a href="#home" class="active">Anasayfa</a>
-        <a href="#city">Şehirler</a>
-        <a href="#about">Hakkımda</a>
-        <a href="#contact">İletişim</a>
+        <a href="#home" id="navbar-home">Anasayfa</a>
+        <a href="#city" id="navbar-city" >Şehirler</a>
+        <a href="#about" id="navbar-about" >Hakkımda</a>
+        <a href="#contact" id="navbar-contact" >İletişim</a>
       </nav>
       <div class="buttons">
-        <button>
-          <i class="fa-solid fa-magnifying-glass" style="color: green"></i>
+        <button id="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
         </button>
-        <button>
-          <i class="fas fa-bars" style="color: green"></i>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
         </button>
       </div>
+      <div class="search-form buttons">
+        <input type="text" class="search-input" id="search-box" placeholder="Şehir">
+        <i class="fa-solid fa-magnifying-glass" style="color:green"></i>
+      </div>
+
     </header>
     <!-- header end -->
     <!-- home start -->
     <section class="home" id="home">
       <div class="content">
-        <h3>Gezelim Görelim</h3>
+        <h3>Gezgin ruhunu keşfet, hadi gezelim!</h3>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore
-          impedit nihil non iste, eligendi corrupti tenetur eveniet cum, illum
-          vel veniam suscipit similique quisquam ad?
+          Gezgin ruhunuzu keşfetmek için mükemmel bir zaman! Türkiyeyi keşfetme yolculuğuna çıkmaya hazır olun. İnanılmaz manzaralar, farklı kültürler ve unutulmaz deneyimler sizi bekliyor. Gezinin büyüsüne kapılın, bilinmeyene adım atın ve hayallerinizi gerçeğe dönüştürün. Yeni yerler keşfederek, anılarınıza renk katın ve sınırları zorlayın. Gezgin ruhunuzla dünyanın dört bir yanını keşfetmek için adım atmaya ne dersiniz? Yolculuğunuz başlamak üzere! hadi gezelim
         </p>
         <a href="#" class="btn">Harita</a>
       </div>
@@ -53,7 +56,12 @@
     <!-- cities start -->
     <!-- SVG Türkiye Haritası | MIT Lisans | dnomak.com -->
     <!--Türkiye Haritası-->
-    <section id="city">
+    <section id="city" class="city">
+      <div id="city-choose">
+        <h1>
+          Türkiye Haritasında İl Seç : hadi bir yerden başlayalım!
+        </h1>
+      </div>
     <div class="il-isimleri"></div>
     <div class="turkiye-haritasi">
       <svg
@@ -914,32 +922,14 @@
     <!-- cities end -->
 
     <!-- about-us start -->
-    <section class="about" id="about" style="background-color: green;">
+    <section class="about" id="about">
       <div class="row">
-        <div class="image">
-          <img src="./img/araba.jpg " alt="about" />
+        <div class="image untouchable">
+          <img src="./img/LOGO3.png " alt="about" />
         </div>
         <div class="content">
           <h3 class="heading">gezi sitesi hakkında</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat,
-            hic earum iusto nesciunt enim, a excepturi error molestias modi
-            tempore itaque quaerat, est sed necessitatibus?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat,
-            hic earum iusto nesciunt enim, a excepturi error molestias modi
-            tempore itaque quaerat, est sed necessitatibus?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat,
-            hic earum iusto nesciunt enim, a excepturi error molestias modi
-            tempore itaque quaerat, est sed necessitatibus?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat,
-            hic earum iusto nesciunt enim, a excepturi error molestias modi
-            tempore itaque quaerat, est sed necessitatibus?
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, tempore incidunt. Possimus dignissimos modi deserunt, laboriosam a consequatur consequuntur blanditiis laborum magnam. Sit deleniti expedita suscipit similique repellendus est veritatis illum, nostrum dignissimos. Id assumenda adipisci optio suscipit. A dolorem provident ipsum quod dignissimos nostrum et sequi veritatis porro blanditiis, alias, aliquam, officiis vero recusandae magnam fuga voluptas officia ab exercitationem ex. Deserunt natus voluptatibus assumenda placeat dolorum esse nostrum obcaecati laborum! Excepturi beatae nulla obcaecati consectetur illo, amet fugit error dignissimos iusto velit! Cum, vel perspiciatis? Nulla quasi reiciendis ex doloremque id, aut rerum quas dolores incidunt, consectetur iure eligendi repudiandae architecto. Delectus veniam eum itaque placeat ipsum iusto repellat, neque obcaecati, consequatur unde reiciendis? Soluta veritatis iste reprehenderit ipsum ullam perspiciatis nisi architecto provident sunt? Quisquam minima mollitia quaerat sed iusto totam itaque provident, veniam ullam explicabo labore soluta ex nisi? Eveniet voluptas suscipit debitis optio explicabo alias?
           </p>
           <a href="#" class="btn">daha fazlası...</a>
         </div>
@@ -954,19 +944,18 @@
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50943.13502160005!2d37.38013695!3d37.05877145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1531e6b4f7f18c2f%3A0xc02e8b35116baad0!2sGaziantep!5e0!3m2!1str!2str!4v1680703015051!5m2!1str!2str"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          class="map"
         ></iframe>
         <form>
           <h3>get in tounch</h3>
-          <div class="inputBox">
-            <i class="fas fa-user"></i>
+          <div class="inputBox untouchable">
+            <i class="fas fa-user "></i>
             <input type="text" placeholder="name" />
           </div>
-          <div class="inputBox">
+          <div class="inputBox untouchable">
             <i class="fas fa-envelope"></i>
             <input type="email" placeholder="email" />
           </div>
-          <div class="inputBox">
+          <div class="inputBox untouchable">
             <i class="fas fa-phone"></i>
             <input type="tel" placeholder="number" />
           </div>
@@ -1004,5 +993,7 @@
     <script>
         turkiyeharitasi();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
   </body>
 </html>
