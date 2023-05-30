@@ -64,12 +64,6 @@ section {
   font-size: 3rem;
   margin-bottom: 2rem;
 }
-/* buraya bakkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk */
-.heading span {
-  color: var(--border-color);
-  text-transform: capitalize;
-}
-/* buraya bakkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk */
 .search-input {
   font-size: 1.8rem;
   color: var(--black-color);
@@ -195,16 +189,18 @@ section {
   max-width: 80rem;
 }
 .home .content h3 {
-  font-size: 6rem;
+  font-size: 7rem;
   color: #fff;
 }
 .home .content p {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 300;
   line-height: 1.8;
   padding: 1rem 0;
   color: #f5efef;
   text-transform: none;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 2rem;
 }
 /* home end */
 
@@ -212,7 +208,10 @@ section {
 #city-choose {
   text-align: center;
   font-size: 3rem;
-  color: var(--blue-color);
+  color: #fff;
+  background-color: var(--green-color);
+  border-radius: 15px;
+  margin: 2rem 0 7rem;
 }
 /* cities end */
 /* about-us start */
@@ -223,13 +222,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   column-gap: 2rem;
-  padding: 4.5rem 7%;
-}
-
-.about .row .btn {
-  background-color: #fff;
-  color: var(--green-color);
-  font-weight: bold;
+  padding: 4.5rem 2%;
 }
 .about .row .image {
   flex: 1 1 15rem;
@@ -238,16 +231,16 @@ section {
   justify-content: space-between;
 }
 .about .row .content {
-  flex: 1 1 15rem;
+  flex: 1 1 1rem;
 }
 .about .row .content h3 {
   font-size: 3rem;
   font-weight: bold;
 }
 .about .row .content p {
-  font-size: 1.2rem;
+  font-size: 2.5rem;
   padding: 1rem 0;
-  line-height: 1.8;
+  line-height: 3.8rem;
 }
 .about .row img {
   width: 80%;
@@ -403,7 +396,7 @@ section {
   padding: 5rem;
 }
 .presentation .content h3 span {
-  background-color: var(--blue-color);
+  background-color: var(--blue-color2);
   padding: 2rem 5rem;
   border-radius: 60% 25%;
   border: 3px solid #4caf50;
@@ -417,6 +410,9 @@ section {
 }
 /* presentation end */
 /* places to Visit start */
+#cityNameDescription {
+  color: black;
+}
 .placesVisit {
   background-color: var(--green-color);
   display: flex;
@@ -427,13 +423,27 @@ section {
 /* places to Visit end */
 
 /* cityVisit start */
-.cityVisit {
+.cityVisitHead2 {
+  background-color: var(--green-color);
+}
+.cityVisitHead {
+  color: var(--blue-color2);
+  background-color: var(--green-color);
+  font-size: 6rem;
+  text-align: center;
+  font-weight: bold;
+  border: 3px solid var(--blue-color2);
+  padding: 2rem 5rem;
+  border-radius: 2rem 5rem;
+  margin: 1rem;
+}
+#cityVisit {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
   gap: 1.5rem;
   background-color: var(--green-color);
 }
-.cityVisit .box {
+#cityVisit .box {
   padding: 1.5rem;
   background-color: #fff;
   border-radius: 3rem;
@@ -441,37 +451,46 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
 }
-.cityVisit .box img {
+#cityVisit .box img {
   width: 100%;
   object-fit: cover;
   border-radius: 4%;
 }
-.cityVisit .box .card-body .cityVisitTitle {
+#cityVisit .box .card-body .cityVisitTitle {
   font-size: 3rem;
   text-align: center;
   text-transform: capitalize;
   color: var(--green-color);
 }
-.cityVisit .box .card-body .cityDescription {
+#cityVisit .box .card-body .cityDescription {
   color: black;
   font-size: 2.2rem;
   padding: 0 1rem;
 }
-.cityVisit .box .card-body .map {
+#cityVisit .box .card-body .map {
   text-align: center;
 }
 /* cityVisit end */
 
 /* cityFood start */
+.cityFoodHead {
+  color: var(--green-color);
+  font-size: 6rem;
+  text-align: center;
+  font-weight: bold;
+  border: 3px solid var(--green-color);
+  padding: 2rem 5rem;
+  border-radius: 2rem 5rem;
+  margin: 5rem 14rem;
+}
 .cityFood {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
   gap: 1.5rem;
   background-color: var(--blue-color2);
 }
-.cityFood .box {
+.cityFood .box2 {
   padding: 1.5rem;
   background-color: #fff;
   border-radius: 3rem;
@@ -481,23 +500,23 @@ section {
   align-items: center;
   justify-content: space-between;
 }
-.cityFood .box img {
+.cityFood .box2 img {
   width: 100%;
   object-fit: cover;
   border-radius: 4%;
 }
-.cityFood .box .card-body .cityFoodTitle {
+.cityFood .box2 .card-body .cityFoodTitle {
   font-size: 3rem;
   text-align: center;
   text-transform: capitalize;
   color: var(--green-color);
 }
-.cityFood .box .card-body .cityFoodDescription {
+.cityFood .box2 .card-body .cityFoodDescription {
   color: black;
   font-size: 2.2rem;
   padding: 0 1rem;
 }
-.cityFood .box .card-body .map {
+.cityFood .box2 .card-body .map {
   text-align: center;
 }
 /* cityFood end */

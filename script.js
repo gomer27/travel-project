@@ -26,10 +26,6 @@ function turkiyeharitasi() {
   element.addEventListener("mouseout", function (event) {
     info.innerHTML = "";
   });
-  element.addEventListener("click", loadCity);
-  function loadCity() {
-    console.log("naber");
-  }
   element.addEventListener("click", function (event) {
     if (event.target.tagName === "path") {
       const parent = event.target.parentNode;
@@ -37,9 +33,7 @@ function turkiyeharitasi() {
       if (id === "guney-kibris") {
         return;
       }
-      console.log(`şehir:${id}`);
       window.location.href = `http://127.0.0.1:5501/city.html?sehir=${id}`;
-      console.log(`şehir:${id}`);
     }
   });
 }

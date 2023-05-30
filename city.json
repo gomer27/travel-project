@@ -1,6 +1,7 @@
 {
-  "Adana": {
-    "aciklama": "asdjasdnkasdjaskjaa",
+  "adana": {
+    "aciklama": "Adana, Türkiye'nin bir ili ve en kalabalık yedinci şehridir. 2021 yılı verilerine göre nüfusu 2.263.373'tür. İlin yüzölçümü 13.844 km2'dir. İlde km2'ye 163 kişi düşmektedir. En yüksek Seyhan ilçesinde 1.785 kişi düşmektedir.04.02.2021 TÜİK verilerine göre 5'i merkez ilçe (Seyhan, Yüreğir, Çukurova, Sarıçam, Karaisalı) olmak üzere toplam 15 ilçesi ve belediyesi vardır. Bu ilçelerde 831 mahalle bulunmaktadır. Adana; kuzeyinde Kayseri, doğusunda Osmaniye, kuzeydoğusunda Kahramanmaraş, güneydoğusunda Hatay, kuzeybatısında Niğde ve batısında Mersin illeri ve güneyinde Akdeniz ile çevrilidir.Türkiye'deki altıncı büyük metropolitan alan olup ülkenin önde gelen tarım, ticaret ve kültür merkezlerinden biridir. Türkiye'deki maden zengini 4. bölge olan Adana; krom, demir, manganez, kurşun ve çinko yatakları açısından önem taşımaktadır.Adana'nın merkezi; Mersin, Adana, Osmaniye ve Hatay illerini kapsayan coğrafi, ekonomik ve kültürel bir bölge olan Çukurova'nın merkezinde bulunur. Yaklaşık 6,33 milyon insana ev sahipliği yapan bölgenin büyük bir bölümü, tarıma oldukça elverişli, geniş ve düz bir arazidir.",
+    "resim": "",
     "gezilecek_yerler": [
       {
         "ad": "Taşköprü",
@@ -96,16 +97,54 @@
     ],
     "yoresel_yemekler": [
       {
-        "ad": "İskender Kebap",
-        "aciklama": "Döner kebabı, domates sosu ve tereyağlı yoğurtla servis edilen bir yemek."
+        "ad": "Peynirli Sıkma",
+        "aciklama": ""
       },
       {
-        "ad": "Baklava",
-        "aciklama": "Şerbetli bir tatlı, ince yufkalar ve cevizlerden yapılır."
+        "ad": "Adana Kebabı",
+        "aciklama": " "
+      },
+      {
+        "ad": "Sarımsaklı Köfte",
+        "aciklama": ""
+      },
+      {
+        "ad": "İçli Köfte",
+        "aciklama": " "
+      },
+      {
+        "ad": "Acılı Ekmek",
+        "aciklama": ""
+      },
+      {
+        "ad": "Şırdan",
+        "aciklama": " "
+      },
+      {
+        "ad": "Fıstıklı Köfte",
+        "aciklama": ""
+      },
+      {
+        "ad": "Yüksük Çorbası",
+        "aciklama": " "
+      },
+      {
+        "ad": "Ispanak Başı",
+        "aciklama": ""
+      },
+      {
+        "ad": "Analı Kızlı",
+        "aciklama": " "
+      },
+      {
+        "ad": "Mumbar Dolması",
+        "aciklama": ""
       }
     ]
   },
-  "Adiyaman": {
+  "adiyaman": {
+    "aciklama": "Adıyaman, Türkiye'nin Güneydoğu Anadolu Bölgesi'nin Orta Fırat Bölümü'nde bulunan bir ilidir. İdari merkezi Adıyaman şehridir. TÜİK 2021 sonu verilerine göre ilin nüfusu 632.459'dur.Doğusunda Diyarbakır, kuzeyinde Malatya, batısında Kahramanmaraş, güneyinde Gaziantep ve Şanlıurfa illeri ile çevrilidir. İlin doğusunda Torosların güneydoğu uzantısı olan Malatya dağları, güneydoğusunda Atatürk Baraj Gölü yer alır. Doğusundan Fırat Nehri ile çevrilidir. İlin kuzey kesimi genel anlamda dağlık ve engebeli iken güney kesiminde geniş ovalar bulunur.İl sınırları içerisindeki tek üniversite Adıyaman Üniversitesi'dir.",
+    "resim": "",
     "gezilecek_yerler": [
       {
         "ad": "Adıyaman Müzesi",
@@ -208,16 +247,54 @@
     ],
     "yoresel_yemekler": [
       {
-        "ad": "İskender Kebap",
-        "aciklama": "Döner kebabı, domates sosu ve tereyağlı yoğurtla servis edilen bir yemek."
+        "ad": "Çiğköfte",
+        "aciklama": ""
       },
       {
-        "ad": "Baklava",
-        "aciklama": "Şerbetli bir tatlı, ince yufkalar ve cevizlerden yapılır."
+        "ad": "Besni Tavası",
+        "aciklama": " "
+      },
+      {
+        "ad": "Buhara Pilavı",
+        "aciklama": ""
+      },
+      {
+        "ad": "İçli Köfte",
+        "aciklama": " "
+      },
+      {
+        "ad": "Kavurmalı Hıtap",
+        "aciklama": ""
+      },
+      {
+        "ad": "Yarpuzlu Köfte",
+        "aciklama": " "
+      },
+      {
+        "ad": "Tevenk Sarması",
+        "aciklama": ""
+      },
+      {
+        "ad": "Adıyaman Köftesi",
+        "aciklama": " "
+      },
+      {
+        "ad": "Dövmeç",
+        "aciklama": ""
+      },
+      {
+        "ad": "Tırşik",
+        "aciklama": " "
+      },
+      {
+        "ad": "Meyir Çorbası",
+        "aciklama": ""
       }
     ]
   },
-  "Afyonkarahisar": {
+  "afyonkarahisar": {
+    "aciklama": "Afyonkarahisar, Ege Bölgesi'nin İç Batı Anadolu Bölümü'nde yer alan bir ildir. İl nüfusu 747.555'tir (31 Aralık 2022). Bu nüfusun %78,07'ü şehirlerde yaşamaktadır (31 Aralık 2021). İlin yüzölçümü 14.016 km²'dir. İlde km²'ye 53 kişi düşmektedir. (Bu sayı merkez ilçede 253’dür.) Afyonkarahisar sınırlarında merkez ilçeyle beraber 18 İlçe, 60 belediye, bu belediyelerde 448 mahalle ve ayrıca 420 köy vardır.",
+    "resim": "",
     "gezilecek_yerler": [
       {
         "ad": "Afyonkarahisar Kalesi",
@@ -327,16 +404,54 @@
     ],
     "yoresel_yemekler": [
       {
-        "ad": "İskender Kebap",
-        "aciklama": "Döner kebabı, domates sosu ve tereyağlı yoğurtla servis edilen bir yemek."
+        "ad": "Sakala Çarpan Çorbası",
+        "aciklama": ""
       },
       {
-        "ad": "Baklava",
-        "aciklama": "Şerbetli bir tatlı, ince yufkalar ve cevizlerden yapılır."
+        "ad": "Tandır Çorbası",
+        "aciklama": " "
+      },
+      {
+        "ad": "Afyon Kebabı",
+        "aciklama": ""
+      },
+      {
+        "ad": "Zürbiye",
+        "aciklama": " "
+      },
+      {
+        "ad": "Göce Köftesi",
+        "aciklama": ""
+      },
+      {
+        "ad": "Ağzı Açık",
+        "aciklama": " "
+      },
+      {
+        "ad": "Bükme",
+        "aciklama": ""
+      },
+      {
+        "ad": "Haşhaşlı Pide",
+        "aciklama": " "
+      },
+      {
+        "ad": "Keşkek",
+        "aciklama": ""
+      },
+      {
+        "ad": "Tırşik",
+        "aciklama": " "
+      },
+      {
+        "ad": "Mayasız Pişi",
+        "aciklama": ""
       }
     ]
   },
-  "Agri": {
+  "agri": {
+    "aciklama": "Ağrı Türkiye'nin Doğu Anadolu Bölgesi'nde Yukarı Murat-Van Bölümü'nde bulunan bir ildir. Adını kısmen sınırları içerisinde bulunan Ağrı Dağı'ndan almıştır. 1834 yılında bucak, 1869 yılında ilçe olan Ağrı, 1927 yılında il olmuştur. İlin doğusunda İran, kuzeyinde Kars, kuzeybatısında Erzurum, güneybatısında Muş ve Bitlis, güneyinde Van ve kuzeydoğusunda Iğdır bulunmaktadır.İlin nüfusu 524.644'tür. Bu nüfusun %60,58'i şehirlerde yaşamaktadır (2021 sonu). Yüzölçümü 11.099 km2'dir, km2'ye 47 kişi düşmektedir. İl merkezi Ağrı'nın denizden yüksekliği: 1630 m.'dir. Rakımı en yüksek ilçesi Diyadin'dir (1933 m).2021 yılında TÜİK verilerine göre merkez ilçeyle beraber 8 ilçe, 12 belediye, bu belediyelerde 100 mahalle ve ayrıca 563 köy vardır",
+    "resim": "",
     "gezilecek_yerler": [
       {
         "ad": "İshak Paşa Sarayı",
@@ -439,16 +554,50 @@
     ],
     "yoresel_yemekler": [
       {
-        "ad": "İskender Kebap",
-        "aciklama": "Döner kebabı, domates sosu ve tereyağlı yoğurtla servis edilen bir yemek."
+        "ad": "Gösteberg Et",
+        "aciklama": ""
       },
       {
-        "ad": "Baklava",
-        "aciklama": "Şerbetli bir tatlı, ince yufkalar ve cevizlerden yapılır."
+        "ad": "Haşıl",
+        "aciklama": " "
+      },
+      {
+        "ad": "Hengel",
+        "aciklama": ""
+      },
+      {
+        "ad": "Erişte",
+        "aciklama": " "
+      },
+      {
+        "ad": "Kuymak",
+        "aciklama": ""
+      },
+      {
+        "ad": "Pişi (Bişi) Erdek",
+        "aciklama": " "
+      },
+      {
+        "ad": "Hasude",
+        "aciklama": ""
+      },
+      {
+        "ad": "Ayranaşı",
+        "aciklama": " "
+      },
+      {
+        "ad": "Ciriş Ketesi",
+        "aciklama": ""
+      },
+      {
+        "ad": "Halise",
+        "aciklama": " "
       }
     ]
   },
-  "Amasya": {
+  "amasya": {
+    "aciklama": "Amasya, Türkiye'nin Karadeniz Bölgesi'nde bulunan bir ildir. Merkez ilçesi Amasya'dır. Bölümü Orta Karadeniz'dir.Amasya il nüfusu 2020 yılında %0,68 azalarak 423.011'e düşmüştür. Bu nüfusun %74,2'si şehirlerde yaşamaktadır. İlin yüzölçümü 5628  km2'dir. İlde  km2'ye 60 kişi düşmektedir. (Bu sayı Suluova'da 104'tür.) İl merkezinin denizden yüksekliği: 400 m.'dir.2018 yılında TÜİK verilerine göre merkez ilçeyle beraber 7 İlçe, 8 belediye, bu belediyelerde 107 mahalle ve ayrıca 372 köyü vardır.Amasya'nın bilinen ilk adı Amaseia'dır. Bu isim dünyanın ilk coğrafyacısı olarak bilenen Strabon tarafından verilmiştir. Amaseia amozonlardaki yaşayan halkın kraliçelerine verdikleri isimdir.",
+    "resim": "",
     "gezilecek_yerler": [
       {
         "ad": "Halifet Gazi Türbesi",
@@ -558,16 +707,51 @@
     ],
     "yoresel_yemekler": [
       {
-        "ad": "İskender Kebap",
-        "aciklama": "Döner kebabı, domates sosu ve tereyağlı yoğurtla servis edilen bir yemek."
+        "ad": "Hengel",
+        "aciklama": ""
       },
       {
-        "ad": "Baklava",
-        "aciklama": "Şerbetli bir tatlı, ince yufkalar ve cevizlerden yapılır."
+        "ad": "Keşkek",
+        "aciklama": " "
+      },
+      {
+        "ad": "Helle Çorbası",
+        "aciklama": ""
+      },
+      {
+        "ad": "Patlıcan Çullama",
+        "aciklama": " "
+      },
+      {
+        "ad": "Yakasal Böreği",
+        "aciklama": ""
+      },
+      {
+        "ad": "Ayva Gallesi",
+        "aciklama": " "
+      },
+      {
+        "ad": " Amasya Çöreği",
+        "aciklama": ""
+      },
+      {
+        "ad": "Bat Yemeği",
+        "aciklama": " "
+      },
+      {
+        "ad": " Bakla Dolması",
+        "aciklama": ""
+      },
+      {
+        "ad": "Çatal Çorba",
+        "aciklama": " "
       }
     ]
   },
   "ankara": {
+    "aciklama": "Ankara , Türkiye'nin başkenti ve İstanbul'dan sonra en kalabalık ikinci ilidir. Nüfusu 2023 yılı itibarıyla 5.782.285 kişidir. Bu nüfus; 25 ilçe ve bu ilçelere bağlı 1425 mahallede yaşamaktadır. İl genelinde nüfus yoğunluğu 215'tir. Nüfuslarına göre şehirler listesinde belediye sınırları göz önüne alınarak yapılan sıralamaya göre dünyada ise elli yedinci sırada yer almaktadır. Coğrafi olarak Türkiye'nin merkezine yakın bir konumda bulunur ve Batı Karadeniz Bölgesi'nde kalan kuzey kesimleri hariç, büyük bölümü İç Anadolu Bölgesi'nde yer alır. Yüzölçümü olarak Konya ve Sivas'tan sonra Türkiye'nin en büyük üçüncü ilidir. Bolu, Çankırı, Kırıkkale, Kırşehir, Aksaray, Konya ve Eskişehir illeri ile çevrilidir.Ankara'nın 13 Ekim 1923'te başkent ilan edilmesinin ardından şehir hızla gelişmiş ve Türkiye'nin ikinci en kalabalık ili olmuştur. Türkiye Cumhuriyeti'nin ilk yıllarında ekonomisi tarım ve hayvancılığa dayanan ilin topraklarının yarısı hâlâ tarım amaçlı kullanılmaktadır. Ekonomik etkinlik büyük oranda ticaret ve sanayiye dayalıdır. Tarım ve hayvancılığın ağırlığı ise giderek azalmaktadır. Ankara ve civarındaki gerek kamu sektörü gerek özel sektör yatırımları, başka illerden büyük bir nüfus göçünü teşvik etmiştir. Cumhuriyetin kuruluşundan günümüze, nüfusu ülke nüfusunun iki katı hızda artmıştır. Nüfusun yaklaşık dörtte üçü hizmet sektörü olarak tanımlanabilecek memuriyet, ulaşım, haberleşme ve ticaret benzeri işlerde, dörtte biri sanayide, %2'si ise tarım alanında çalışır. Sanayi, özellikle tekstil, gıda ve inşaat sektörlerinde yoğunlaşmıştır. Günümüzde ise en çok savunma, metal ve motor sektörlerinde yatırım yapılmaktadır. Türkiye'nin en çok sayıda üniversiteye sahip ili olan Ankara'da ayrıca, üniversite diplomalı kişi oranı ülke ortalamasının iki katıdır. Bu eğitimli nüfus, teknoloji ağırlıklı yatırımların gereksinim duyduğu iş gücünü oluşturur. Ankara'dan otoyollar, demir yolu ve hava yoluyla Türkiye'nin diğer şehirlerine ulaşılır.Bilinen tarihi en az 10 bin yıl öncesine, Eski Taş Çağı'na ulaşan Ankara, tarih öncesinden günümüze dek pek çok medeniyeti barındırmıştır. Hititler, Frigyalılar, Lidyalılar, Persler, Galatlar, Romalılar, Bizanslılar, Selçuklu Hanedanı, Osmanlılar ve nihayet Türkiye Cumhuriyeti, il topraklarını kontrolleri altında tutmuştur. Tektosagların ve Türkiye Cumhuriyeti'nin başkenti olan Ankara şehri ve Frigyalıların başkenti Gordion, il sınırları içinde yer alır. Yıldırım Bayezid'in Timurlenk'e yenik düştüğü Ankara Muharebesi Çubuk yakınlarında ve Türk Kurtuluş Savaşı'nın dönüm noktası olan Sakarya Muharebesi Polatlı yakınlarında yapılmıştır.Ankara kara iklimine sahiptir. Şehir dışındaki il topraklarının büyük kısmı tahıl tarlalarıyla kaplı platolardan oluşur. İlin çeşitli yerlerindeki doğal güzellikler korumaya alınmış, dinlenme ve eğlence amaçlı kullanıma sunulmuştur. İlin adını taşıyan tavşanı, keçisi, atı ve kedisi dünya çapında bilinir, armudu, çiğdemi, yerel yemeklerden Ankara tavası ve Kızılcahamam ve Beypazarı'nın maden suyu ise ülke çapında tanınır.",
+    "resim": "",
+
     "gezilecek_yerler": [
       {
         "ad": "Anıtkabir",
@@ -677,16 +861,51 @@
     ],
     "yoresel_yemekler": [
       {
-        "ad": "İçli Köfte",
-        "aciklama": "İçi bulgur, soğan ve kıyma dolu küçük bir köfte."
+        "ad": "Beypazarı Güveci",
+        "aciklama": ""
       },
       {
-        "ad": "Döner Kebap",
-        "aciklama": "Döndürme şeklinde pişirilen etin lavaşla servis edildiği bir yemek."
+        "ad": "İnceğiz Çorbası",
+        "aciklama": " "
+      },
+      {
+        "ad": "Tamtak Tiridi",
+        "aciklama": ""
+      },
+      {
+        "ad": "Efelek Sarması",
+        "aciklama": " "
+      },
+      {
+        "ad": "Ankara Tava",
+        "aciklama": ""
+      },
+      {
+        "ad": "Öllüğün Körü",
+        "aciklama": " "
+      },
+      {
+        "ad": "Bazlama Kebabı",
+        "aciklama": ""
+      },
+      {
+        "ad": "Bici Aşı",
+        "aciklama": " "
+      },
+      {
+        "ad": "Çıkınağıl Asıdası",
+        "aciklama": ""
+      },
+      {
+        "ad": "Karga Beyni",
+        "aciklama": " "
       }
     ]
   },
-  "Antalya": {
+  "antalya": {
+    "aciklama": "Antalya, Türkiye'nin bir ili ve en kalabalık beşinci şehridir. 2022 sonu itibarıyla il nüfusu 2.688.004'dür. Türkiye'de turizmin başkenti olarak görülmektedir.Özellikle yaz aylarında turist sayısı artar. Şehrin yüzölçümü 20.177 km2dir. İlde km2ye 130 kişi düşmektedir. En kalabalık ilçesi 2021 yılı itibarıyla 591.895 kişiyle Kepez ilçesidir. Nüfus yoğunluğunun en fazla olduğu ilçe ise km2 başına 5429 kişi ile Muratpaşa ilçesidir. 19 ilçe ve belediye, bu belediyelerde toplam 914 mahalle bulunmaktadır.Tamamı Akdeniz Bölgesi'nin batısında yer alır ve Antalya Körfezi'yle Batı Torosların arasında kurulmuştur. Yüzölçümü bakımından Türkiye'nin beşinci büyük ilidir.Güneyinde Akdeniz, batısında Muğla, kuzeyinde Burdur ve Isparta, kuzeydoğusunda Konya, doğusunda ise Karaman ve Mersin illeri vardır.Antalya şehri, 1980 yılından sonra uygun iklim koşulları ve turizm etkinlikleri nedeniyle hızla gelişmiş ve buna paralel olarak il de günümüzde Türkiye'nin en kalabalık beşinci ili olmuştur. Antalya'da ekonomik hayat büyük oranda ticaret, tarım ve turizme dayalıdır.Antalya ilinin kapsadığı bölge tarih öncesinden günümüze dek pek çok medeniyeti barındırmıştır ve Türkiye'de en çok antik kent bulunan ildir. Sırasıyla Likyalılar, Lidyalılar, Pamfilyalılar, Bergamalılar, Romalılar, Bizanslılar, Selçuklu Hanedanı, Osmanlılar ve son olarak da Türkiye Cumhuriyeti hakimiyetinde bulunan Antalya bu medeniyetlerin hiçbirine başkentlik yapmamıştır.İlin tamamı Akdeniz Bölgesi'nin Antalya Bölümü'nde yer alır ve Akdeniz ikliminin etki sahasındadır. Yerleşim yerleri haricindeki il topraklarının büyük kısmı tahıl tarlalarıyla kaplı platolardan oluşur.Türk Silahlı Kuvvetleri Kara Kuvvetleri Komutanlığına bağlı 3. Piyade Eğitim Tugayı Komutanlığı ve Hava Kuvvetleri Komutanlığına bağlı Hava Meydan Komutanlığı Antalya'da bulunmaktadır.",
+    "resim": "",
+
     "gezilecek_yerler": [
       {
         "ad": "Düden Şelalesi",
@@ -798,7 +1017,10 @@
       }
     ]
   },
-  "Artvin": {
+  "artvin": {
+    "aciklama": "Artvin, Türkiye'nin Karadeniz Bölgesi'nin Doğu Karadeniz Bölümü'nde yer alan, Karadeniz'e kıyısı bulunan bir ildir. İl, Türkiye'nin Gürcistan'la olan sınırında yer alan kuzeydoğu köşesidir. Doğusunda Ardahan ili, güneyinde Erzurum ili ve batısında Rize ili vardır.2019 Yılı verilerine göre nüfusu 170.875’dir. Bu nüfusun %62,4'ü şehirlerde yaşamaktadır. İlin yüzölçümü 7.436 km²'dir. İlde km²'ye 23 kişi düşmektedir. (Bu sayı merkez ilçede 30'dur.) İl merkezinin denizden yüksekliği: 530 m.'dir.2020 yılında TÜİK verilerine göre merkez ilçeyle beraber 9 ilçe, 9 belediye, bu belediyelerde 39 mahalle ve ayrıca 320 köyü vardır.Coğrafi ve kültürel yapısıyla Anadolu'nun diğer bölgelerinden keskin çizgilerle ayrılır. Yüzey şekilleri çok engebelidir. İklim çeşitliliği fazladır. İlin en önemli akarsuyu, 1956 yılına kadar adını veren Çoruh Nehri'dir. Artvin boğalarıyla meşhur bir il olup simgesi boğadır. Artvin il topraklarının yaklaşık %55’ini ormanlık alanlar kaplamıştır. Murgul'da bakır madeni vardır. Tarihte genellikle Livane ve Çoruh adıyla bilinir. Artvin il nüfusunu Gürcüler, Hemşinliler, Ahıska Türkleri ve Lazlar oluşturur.Millî parklarıyla ünlüdür. Şavşat ilçesinde bulunan Karagöl Sahara Millî Parkı içerisinde bulunan Şavşat-Karagöl ve Borçka-Karagöl turistik yerlerden bazılarıdır. Efeler-Gorgit Tabiatı Koruma Alanı esas olmak üzere Camili yöresi Birleşmiş Milletler Eğitim, Bilim ve Kültür Örgütü tarafından biyosfer rezerv alanı olarak belirlenen Türkiye'deki tek bölgedir ve bir dünya mirası olarak görülmektedir.İlin bir önceki adı Çoruh olup, TBMM'nde kabul edilen 17 Şubat 1956 tarih ve 6668 sayılı kanunla Artvin olmuştur.",
+    "resim": "",
+
     "gezilecek_yerler": [
       {
         "ad": "CAM TERAS ARTViN",
@@ -917,7 +1139,10 @@
       }
     ]
   },
-  "Aydin": {
+  "aydin": {
+    "aciklama": "Aydın, Türkiye'nin bir ili ve en kalabalık yirminci şehridir. Ege Bölgesi'nde yer alan, turizm ve tarım açısından en gelişmiş illerdendir. Kuzeyinde İzmir, kuzeydoğusunda Manisa, doğusunda Denizli, güneyinde Muğla illeri, batısında Ege Denizi bulunmaktadır. 2022 itibarıyla 1.134.031 kişilik nüfusuyla Ege Bölgesi'nin üçüncü büyük ilidir. 17 ilçesi vardır.",
+    "resim": "",
+
     "gezilecek_yerler": [
       {
         "ad": "Nasuh Paşa Külliyesi",
@@ -1015,7 +1240,10 @@
       }
     ]
   },
-  "Istanbul": {
+  "istanbul": {
+    "aciklama": "İstanbul, Türkiye'de Marmara Bölgesi'nde yer alan şehir ve Türkiye'nin 81 ilinden biridir. Ülkenin nüfus bakımından en çok göç alan ve en kalabalık ilidir. Ekonomik, tarihî ve sosyo-kültürel açıdan önde gelen şehirlerden biridir. Şehir, iktisadi büyüklük açısından dünyada 34. sırada yer alır. Nüfuslarına göre şehirler listesinde belediye sınırları göz önüne alınarak yapılan sıralamaya göre Avrupa'da birinci, dünyada ise altıncı sırada yer almaktadır. İstanbul Türkiye'nin kuzeybatısında, Marmara kıyısı ve Boğaziçi boyunca, Haliç'i de çevreleyecek şekilde kurulmuştur. İstanbul kıtalararası bir şehir olup, Avrupa'daki bölümüne Avrupa Yakası veya Rumeli Yakası, Asya'daki bölümüne ise Anadolu Yakası veya Asya Yakası denir. Tarihte ilk olarak üç tarafı Marmara Denizi, Boğaziçi ve Haliç'in sardığı bir yarımada üzerinde kurulan İstanbul'un batıdaki sınırını İstanbul Surları oluşturmaktaydı. Gelişme ve büyüme sürecinde surların her seferinde daha batıya ilerletilerek inşa edilmesiyle dört defa genişletilen şehrin 39 ilçesi vardır. Sınırları içerisinde ise büyükşehir belediyesi ile birlikte toplam 40 belediye bulunmaktadır. Dünyanın en eski şehirlerinden biri olan İstanbul, 330-395 yılları arasında Roma İmparatorluğu, 395-1204 yılları arasında Bizans İmparatorluğu, 1204-1261 yılları arasında Latin İmparatorluğu,1261-1453 yılları arasında tekrar Bizans İmparatorluğu ve son olarak 1453-1922 yılları arasında Osmanlı İmparatorluğu'na başkentlik yaptı. Ayrıca İstanbul, Hilâfetin Osmanlı İmparatorluğu'na geçtiği 1517'den kaldırıldığı 1924'e kadar İslam dünyasının da merkezi oldu. Son yıllarda ortaya çıkartılan arkeolojik bulgularla insanlık tarihine ilişkin önemli bilgiler elde edilmiştir. Yarımburgaz Mağarası'ndan çıkarılan taş aletlerle, ilkel insan izlerinin 400.000 yıl öncesine dayandığı ortaya çıkmıştır. Anadolu Yakası'nda yürütülen kazı çalışmaları ve bunlara bağlı araştırmalar, şehirde tarım ve hayvancılığa dayalı ilk yerleşik insan topluluğunun MÖ 5500'lere tarihlenen Fikirtepe Kültürü olduğunu göstermiştir.[19] Bu arkeolojik bulgular yalnızca İstanbul'un değil, tüm Marmara Bölgesi'nin en eski insan izleridir.[19] İstanbul sınırları içinde kent bazında ilk yerleşimler ise Anadolu Yakası'nda Kalkedon; Avrupa Yakası'nda Byzantion'dur. Cumhuriyet dönemi öncesinde egemenliği altında olduğu devletlere yüzlerce yıl başkentlik yapan İstanbul, 13 Ekim 1923 tarihinde başkentin Ankara'ya taşınmasıyla bu özelliğini yitirmiş; ancak ülkenin ticaret, sanayi, ulaşım, turizm, eğitim, kültür ve sanat merkezi olmaya devam etmiştir. Karadeniz ile Marmara Denizi'ni bağlayan ve Asya ile Avrupa'yı ayıran İstanbul Boğazı'na ev sahipliği yapması nedeniyle, İstanbul'un jeopolitik önemi oldukça yüksektir. Bugün tamamına yakını doldurulmuş olan ya da kaybolan doğal limanları vardır. Bu özellikleri yüzünden bölge toprakları üzerinde uzun süreli egemenlik anlaşmazlıkları ve savaşlar yaşanmıştır. Başlıca akarsular Riva, Kâğıthane ve Alibey dereleridir. İl toprakları az engebelidir ve en yüksek noktası Kartal ilçesindeki Aydos Tepesi'dir. İldeki başlıca doğal göller Büyükçekmece, Küçükçekmece ve Durusu gölleridir. İl ve yakın çevresinde, Karadeniz ile Akdeniz makro iklimleri arasında geçiş özellikleri görülür. Hava sıcaklıkları ve yağış ortalamaları düzensiz; bitki örtüsü dengesizdir.",
+    "resim": "",
+
     "gezilecek_yerler": [
       {
         "ad": "Ayasofya Müzesi",
