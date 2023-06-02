@@ -116,3 +116,12 @@ function contactLine() {
 //   const turkiye = this.value;
 //   console.log(`değer${turkiye}`)
 // deneme end
+
+// let search = document.getElementById("searchCity");
+// function runEvents() {
+//   search.addEventListener("keyup", cityFind);
+// }
+// function cityFind(e) {
+//   const searchCity = e.target.value;
+//   console.log(searchCity);
+// }

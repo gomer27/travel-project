@@ -178,7 +178,7 @@ section {
 /* home start */
 .home {
   min-height: 100vh;
-  background: url(./img/kamp.jpg) no-repeat;
+  background: url(./img/travel.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   margin-top: -12.5rem;
@@ -391,15 +391,15 @@ section {
 }
 .presentation .content h3 {
   font-size: 6rem;
-  color: var(--green-color);
+  color: var(--blue-color2);
   text-align: center;
   padding: 5rem;
 }
 .presentation .content h3 span {
-  background-color: var(--blue-color2);
+  background-color: var(--green-color);
   padding: 2rem 5rem;
   border-radius: 60% 25%;
-  border: 3px solid #4caf50;
+  border: 3px solid var(--blue-color2);
 }
 .presentation .content p {
   font-size: 2rem;
@@ -413,26 +413,26 @@ section {
 #cityNameDescription {
   color: black;
 }
-.placesVisit {
-  background-color: var(--green-color);
+/* .placesVisit {
+  background-color: var(--blue-color2);
   display: flex;
   flex-wrap: wrap;
   column-gap: 2rem;
   padding: 4.5rem 7%;
-}
+} */
 /* places to Visit end */
 
 /* cityVisit start */
 .cityVisitHead2 {
-  background-color: var(--green-color);
+  background-color: var(--blue-color2);
 }
 .cityVisitHead {
-  color: var(--blue-color2);
-  background-color: var(--green-color);
+  color: var(--green-color);
+  background-color: var(--blue-color2);
   font-size: 6rem;
   text-align: center;
   font-weight: bold;
-  border: 3px solid var(--blue-color2);
+  border: 3px solid var(--green-color);
   padding: 2rem 5rem;
   border-radius: 2rem 5rem;
   margin: 1rem;
@@ -441,7 +441,7 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
   gap: 1.5rem;
-  background-color: var(--green-color);
+  background-color: var(--blue-color2);
 }
 #cityVisit .box {
   padding: 1.5rem;
@@ -475,11 +475,11 @@ section {
 
 /* cityFood start */
 .cityFoodHead {
-  color: var(--green-color);
+  color: var(--blue-color2);
   font-size: 6rem;
   text-align: center;
   font-weight: bold;
-  border: 3px solid var(--green-color);
+  border: 3px solid var(--blue-color2);
   padding: 2rem 5rem;
   border-radius: 2rem 5rem;
   margin: 5rem 14rem;
@@ -488,7 +488,7 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
   gap: 1.5rem;
-  background-color: var(--blue-color2);
+  background-color: var(--green-color);
 }
 .cityFood .box2 {
   padding: 1.5rem;
@@ -520,11 +520,113 @@ section {
   text-align: center;
 }
 /* cityFood end */
-.citiesPage {
-  margin-top: 20vh;
-  background-color: var(--green-color);
+/* comment start */
+#comment {
+  border: 0.3rem solid var(--green-color);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
 }
+.commentt {
+  background-color: var(--blue-color2);
+}
+.commentt .commentsTitle {
+  color: var(--green-color);
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+  border: 0.6rem solid var(--green-color);
+  padding: 15px;
+  margin-bottom: 2rem;
+  border-radius: 2rem 5rem;
+}
+.commentt #comments .comment .card-footer {
+  display: flex;
+  justify-content: start;
+  gap: 3%;
+}
+.commentt #comments .comment {
+  border-radius: 1rem;
+  border: 0.2rem solid var(--green-color);
+  margin-bottom: 0.5rem;
+  padding: 0.2rem 1rem;
+}
+.commentt #comments .comment .card-body .commentText {
+  color: black;
+  font-size: 2rem;
+}
+.commentt #comments .comment .card-footer .commentName {
+  color: var(--green-color);
+  font-size: 1.5rem;
+}
+.commentt #comments .comment .card-footer .commentDate {
+  color: var(--green-color);
+  font-size: 1.5rem;
+}
+/* comment end */
+/* user-comment start */
+.userComment {
+  padding: 15px;
+  padding: 3.5rem 7%;
+  font-size: 2.5rem;
+  background-color: var(--blue-color2);
+}
+#userComment {
+  border: 0.7rem solid var(--green-color);
+  border-radius: 1rem;
+}
+.userComment #userComment {
+  display: flex;
+  background-color: var(--blue-color2);
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.userComment #userComment form {
+  flex: 1 1 45rem;
+  padding: 3rem 2.5rem;
+  text-align: center;
+}
+.userComment #userComment form h3 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: var(--green-color);
+}
+.userComment #userComment form button {
+  border: 0.25rem solid var(--green-color);
+}
+.userComment #userComment form .inputBox {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  border: 0.3rem solid var(--green-color);
+  border-radius: 1rem;
+}
+.userComment #userComment form .inputBox i {
+  color: var(--green-color);
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+.userComment #userComment form .inputBox input {
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.7rem;
+  color: var(--green-color);
+  text-transform: none;
+  background-color: transparent;
+}
+.userComment #userComment form .inputBox textarea {
+  min-height: 25rem;
+  min-width: 100%;
+  padding: 2rem;
+}
+.userComment #userComment form .btn {
+  color: var(--green-color);
+  background-color: #fff;
+  font-weight: bold;
+}
+/* user-comment end */
 /* cities page end */
+
 /* responsive start */
 @media (max-width: 991px) {
   html {

@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Şehirler</title>
   </head>
-  <body>
+  <body style="background-color: var(--green-color);">
     <!-- header start -->
     <header class="header">
       <a href="#" class="logo">
@@ -63,12 +63,11 @@
     </section>
     <!-- presentation end -->
     <!-- cityVisit start-->
-    <section class=" cityVisitHead2">
+    <section class="cityVisitHead2">
       <div class="cityVisitHead">
         Gezilecek Yerler
       </div>
     </section>
-    
     <section id="cityVisit"">
     </section>
     <!-- cityVisit end-->
@@ -78,7 +77,31 @@
     </section>
     <section class="cityFood" id="cityFood">
     </section>
-    <!-- deneme end -->
+    <section class="commentt">
+      <div class="commentsTitle">YORUMLAR</div>
+      <div id="comments">
+      </div>
+    </section>
+    <section class="userComment">
+      <div  id="userComment">
+        <form action="">
+          <h3>Yorum yapın</h3>
+          <div class="inputBox untouchable">
+            <i class="fas fa-user "></i>
+            <input type="text" placeholder="name" id="userName" />
+          </div>
+          <div class="inputBox untouchable">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="email" id="userEmail" />
+          </div>
+          <div class="inputBox untouchable">
+            <textarea id="userMessage"></textarea>
+          </div>
+          <button class="btn btn-primary" type="button" onclick="yorumyaz()">Gönder</button>
+        </form> 
+      </div>
+    </section>
+
     <!-- footer start -->
     <section class="footer">
       <div class="search">
@@ -106,6 +129,44 @@
     <!-- footer end -->
     <script src="app.js"></script>
     <script>
+      function yorumyaz(){
+        var queryParams = new URLSearchParams(window.location.search);
+        var sehir = queryParams.get('sehir');
+        let name =document.getElementById("userName").value;
+        let email =document.getElementById("userEmail").value;
+        let Message =document.getElementById("userMessage").value;
+        let date = new Date()
+        console.log(name)
+        let yorumlar = JSON.parse(localStorage.getItem(sehir) || '[]')
+        yorumlar.push({ad: name, mail: email, msg : Message,date:date})
+        localStorage.setItem(sehir, JSON.stringify(yorumlar))
+        yorumGoster();
+        document.getElementById("userName").value="";
+        document.getElementById("userEmail").value="";
+        document.getElementById("userMessage").value="";
+      }
+      function yorumGoster(){
+        var queryParams = new URLSearchParams(window.location.search);
+        var sehir = queryParams.get('sehir');
+        let yorumlar = JSON.parse(localStorage.getItem(sehir) || '[]');
+            console.log(yorumlar);
+            var box3 = document.getElementById("comments");
+            box3.innerHTML = "";
+            yorumlar.forEach(function (elem) {
+              var html = `
+                          <div class="comment">
+                            <div class="card-body">
+                              <p class="commentText">${elem.msg}</p>
+                            </div>
+                            <div class="card-footer">
+                              <h5 class="commentName">${elem.ad}</h5>
+                              <small class="text-body-secondary commentDate">${elem.date.slice(0,10).split("-").reverse().join('.')}</small>
+                            </div>
+                          </div>
+                        `;
+                box3.innerHTML += html;
+              });
+      }
       window.onload = function() {
         const xhr = new XMLHttpRequest();
         xhr.open('GET','city.json',true);
@@ -117,13 +178,11 @@
 
             // Belirli bir parametreyi çekme
             var sehir = queryParams.get('sehir');
+
             let cityName = document.querySelector("#cityName");
             cityName.innerHTML=sehir;
             let cityNameDescription = document.querySelector("#cityNameDescription");
             cityNameDescription.innerHTML = cityVisit[sehir].aciklama;
-            console.log(cityVisit[sehir].gezilecek_yerler);
-            console.log(cityVisit[sehir].yoresel_yemekler);
-
             var box = document.getElementById("cityVisit");
             cityVisit[sehir].gezilecek_yerler.forEach(function (elem) {
               var html = `
@@ -156,6 +215,8 @@
                 box2.innerHTML += html;
         
             })
+            yorumGoster();
+          
           }
           };
         xhr.send();
