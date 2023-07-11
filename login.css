@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.login {
+  width: 100%;
+  height: 100%;
+  background-image: url(./img/travel.jpg);
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.form-box {
+  width: 25rem;
+  min-height: 30rem;
+  position: relative;
+  background: rgba(255, 255, 255, 0.842);
+  box-shadow: 0 0 20px 10px #4caf50;
+  border-radius: 1.5rem;
+  margin: 6% auto;
+  padding: 10px;
+  overflow: hidden;
+}
+.button-box {
+  width: 20rem;
+  margin: 1.5rem auto;
+  position: relative;
+  box-shadow: 0 0 5px 5px #45aaf2;
+  border-radius: 1.5rem;
+}
+.toggle-btn {
+  position: relative;
+  padding: 1rem 3rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#toggle-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 3.4rem;
+  background: linear-gradient(to right, #4caf50, #45aaf2);
+  border-radius: 1.5rem;
+}
+.button-box button:nth-child(2) {
+  color: #fff;
+}
+.input-group {
+  position: absolute;
+  top: 8rem;
+  width: 18rem;
+  transition: 0.5s;
+}
+.input-group a {
+  display: inline-block;
+  text-decoration: none;
+  color: #777;
+  font-size: 1rem;
+  margin: 2rem 1rem 2rem 0;
+}
+.input-field {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin: 0 0 2rem;
+  font-size: 1.6rem;
+  background: transparent;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.7);
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  outline: #45aaf2;
+}
+.submit-btn {
+  display: block;
+  width: 85%;
+  padding: 8%;
+  margin: 50rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 1.5rem;
+  color: #fff !important;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: auto;
+  background: linear-gradient(to right, #4caf50, #45aaf2);
+}
+#login {
+  left: 50px;
+}
+#register {
+  left: 45rem;
+}

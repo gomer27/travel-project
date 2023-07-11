@@ -1,2 +1,0 @@
-# travel-project
-bitirme projem

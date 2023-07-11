@@ -19,11 +19,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
     <link rel="stylesheet" href="style.css" />
-    <title>Şehirler</title>
+    <title>Gezgin-Şehirler
+    </title>
   </head>
   <body style="background-color: var(--green-color);">
+    <button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+      <i class="fas fa-arrow-up"></i>
+    </button>
     <!-- header start -->
     <header class="header">
       <a href="#" class="logo">
@@ -36,6 +43,12 @@
         <a href="./index.html">İletişim</a>
       </nav>
       <div class="buttons">
+        <a id="giris-btn" href="/login.html">
+          <i class="fa-solid fa-user-plus fa-flip-horizontal" style="color: #c13515; display: none;"></i>
+        </a>
+        <button id="cikis-btn" onclick="sil()">
+          <i class="fa-solid fa-right-to-bracket" style="color: #c13515;display: block;"></i>
+        </button>
         <button id="search-btn">
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
@@ -44,18 +57,99 @@
         </button>
       </div>
       <div class="search-form buttons">
-        <input type="text" class="search-input" id="search-box" placeholder="Şehir">
-        <i class="fa-solid fa-magnifying-glass" style="color:green"></i>
-      </div>
-
-    </header>
+        <select class="form-select search-input" aria-label="Default select example" type="text" id="search-box" placeholder="Şehir" onchange="searchBox()">
+          <option selected>Şehir</option>
+          <option value="adana">Adana</option>
+          <option value="adıyaman">Adıyaman</option>
+          <option value="afyonkarahisar">Afyon</option>
+          <option value="ağrı">Ağrı</option>
+          <option value="amasya">Amasya</option>
+          <option value="ankara">Ankara</option>
+          <option value="antalya">Antalya</option>
+          <option value="artvin">Artvin</option>
+          <option value="aydın">Aydın</option>
+          <option value="balıkesir">Balıkesir</option>
+          <option value="bilecik">Bilecik</option>
+          <option value="bingöl">Bingöl</option>
+          <option value="bitlis">Bitlis</option>
+          <option value="bolu">Bolu</option>
+          <option value="burdur">Burdur</option>
+          <option value="bursa">Bursa</option>
+          <option value="çanakkale">Çanakkale</option>
+          <option value="çankırı">Çankırı</option>
+          <option value="çorum">Çorum</option>
+          <option value="denizli">Denizli</option>
+          <option value="diyarbakır">Diyarbakır</option>
+          <option value="edirne">Edirne</option>
+          <option value="elazığ">Elazığ</option>
+          <option value="erzincan">Erzincan</option>
+          <option value="erzurum">Erzurum</option>
+          <option value="eskişehir">Eskişehir</option>
+          <option value="gaziantep">Gaziantep</option>
+          <option value="giresun">Giresun</option>
+          <option value="gümüşhane">Gümüşhane</option>
+          <option value="hakkari">Hakkari</option>
+          <option value="hatay">Hatay</option>
+          <option value="ısparta">Isparta</option>
+          <option value="mersin">Mersin</option>
+          <option value="istanbul">İstanbul</option>
+          <option value="izmir">İzmir</option>
+          <option value="kars">Kars</option>
+          <option value="kastamonu">Kastamonu</option>
+          <option value="kayseri">Kayseri</option>
+          <option value="kırıkkale">Kırklareli</option>
+          <option value="kırşehir">Kırşehir</option>
+          <option value="kocaeli">Kocaeli</option>
+          <option value="konya">Konya</option>
+          <option value="kütahya">Kütahya</option>
+          <option value="malatya">Malatya</option>
+          <option value="manisa">Manisa</option>
+          <option value="kahramanmaraş">Kahramanmaraş</option>
+          <option value="mardin">Mardin</option>
+          <option value="muğla">Muğla</option>
+          <option value="muş">Muş</option>
+          <option value="nevşehir">Nevşehir</option>
+          <option value="niğde">Niğde</option>
+          <option value="ordu">Ordu</option>
+          <option value="rize">Rize</option>
+          <option value="sakarya">Sakarya</option>
+          <option value="samsun">Samsun</option>
+          <option value="siirt">Siirt</option>
+          <option value="sinop">Sinop</option>
+          <option value="sivas">Sivas</option>
+          <option value="tekirdag">Tekirdağ</option>
+          <option value="tokat">Tokat</option>
+          <option value="trabzon">Trabzon</option>
+          <option value="tunceli">Tunceli</option>
+          <option value="şanlıurfa">Şanlıurfa</option>
+          <option value="uşak">Uşak</option>
+          <option value="van">Van</option>
+          <option value="yozgat">Yozgat</option>
+          <option value="zonguldak">Zonguldak</option>
+          <option value="aksaray">Aksaray</option>
+          <option value="bayburt">Bayburt</option>
+          <option value="karaman">Karaman</option>
+          <option value="kırıkkale">Kırıkkale</option>
+          <option value="batman">Batman</option>
+          <option value="şırnak">Şırnak</option>
+          <option value="bartın">Bartın</option>
+          <option value="ardahan">Ardahan</option>
+          <option value="ığdır">Iğdır</option>
+          <option value="yalova">Yalova</option>
+          <option value="karabuk">Karabük</option>
+          <option value="kilis">Kilis</option>
+          <option value="osmaniye">Osmaniye</option>
+          <option value="düzce">Düzce</option>
+        </select>
+        <i class="fa-solid fa-magnifying-glass" id="ara"></i>
+      </div>    </header>
     <!-- header end -->
     <!-- presentation start -->
-    <section class="presentationImg" id="home">
+    <section class="presentationImg" id="home" >
     </section>
     <section class="presentation">
       <div class="content">
-        <h3><span id="cityName">GAZİANTEP</span></h3>
+        <h3><span id="cityName">Şehir</span></h3>
         <p id="cityNameDescription">
           Gezgin ruhunuzu keşfetmek için mükemmel bir zaman! Türkiyeyi keşfetme yolculuğuna çıkmaya hazır olun. İnanılmaz manzaralar, farklı kültürler ve unutulmaz deneyimler sizi bekliyor. Gezinin büyüsüne kapılın, bilinmeyene adım atın ve hayallerinizi gerçeğe dönüştürün. Yeni yerler keşfederek, anılarınıza renk katın ve sınırları zorlayın. Gezgin ruhunuzla dünyanın dört bir yanını keşfetmek için adım atmaya ne dersiniz? Yolculuğunuz başlamak üzere! hadi gezelim
         </p>
@@ -80,22 +174,35 @@
     <section class="commentt">
       <div class="commentsTitle">YORUMLAR</div>
       <div id="comments">
+        <div class="comment">
+          <div class="card-body">
+            <p class="commentText">Hadi ilk yorumu sen yap</p>
+          </div>
+          <div class="card-footer">
+            <h5 class="commentName">Gezgin</h5>
+            <small class="text-body-secondary commentDate">20.02.2022</small>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="userComment">
+    <section id="userYoksa" style="display: none;">
+      <h3>Yorum yapmak için giriş yapın</h3>
+      <a href="/login.html">GİRİŞ YAP</a>
+    </section>
+    <section id="userVarsa" class="userComment" style="display: none;">
       <div  id="userComment">
         <form action="">
           <h3>Yorum yapın</h3>
           <div class="inputBox untouchable">
             <i class="fas fa-user "></i>
-            <input type="text" placeholder="name" id="userName" />
+            <input type="text" placeholder="name" id="userName" required />
           </div>
           <div class="inputBox untouchable">
             <i class="fas fa-envelope"></i>
-            <input type="email" placeholder="email" id="userEmail" />
+            <input type="email" placeholder="email" id="userEmail" required />
           </div>
           <div class="inputBox untouchable">
-            <textarea id="userMessage"></textarea>
+            <textarea id="userMessage" required></textarea>
           </div>
           <button class="btn btn-primary" type="button" onclick="yorumyaz()">Gönder</button>
         </form> 
@@ -128,7 +235,20 @@
     </section>
     <!-- footer end -->
     <script src="app.js"></script>
+    <script src="genel.js"></script>
+    <script src="login.js"></script>
     <script>
+      try {
+        const user  = JSON.parse(localStorage.getItem('kullanıcı'));
+        if (user?.ad && user?.mail) {
+          document.querySelector('#userVarsa').style.display = 'block'
+        } else {
+          document.querySelector('#userYoksa').style.display = 'block'
+        }
+      } catch (error) {
+        document.querySelector('#userYoksa').style.display = 'block'
+      }
+
       function yorumyaz(){
         var queryParams = new URLSearchParams(window.location.search);
         var sehir = queryParams.get('sehir');
@@ -136,14 +256,15 @@
         let email =document.getElementById("userEmail").value;
         let Message =document.getElementById("userMessage").value;
         let date = new Date()
-        console.log(name)
-        let yorumlar = JSON.parse(localStorage.getItem(sehir) || '[]')
+        if(name &&email && Message){
+          let yorumlar = JSON.parse(localStorage.getItem(sehir) || '[]')
         yorumlar.push({ad: name, mail: email, msg : Message,date:date})
         localStorage.setItem(sehir, JSON.stringify(yorumlar))
         yorumGoster();
         document.getElementById("userName").value="";
         document.getElementById("userEmail").value="";
         document.getElementById("userMessage").value="";
+        }
       }
       function yorumGoster(){
         var queryParams = new URLSearchParams(window.location.search);
@@ -151,8 +272,9 @@
         let yorumlar = JSON.parse(localStorage.getItem(sehir) || '[]');
             console.log(yorumlar);
             var box3 = document.getElementById("comments");
-            box3.innerHTML = "";
-            yorumlar.forEach(function (elem) {
+            if(yorumlar.length >0){
+              box3.innerHTML = "";
+              yorumlar.forEach(function (elem) {
               var html = `
                           <div class="comment">
                             <div class="card-body">
@@ -166,6 +288,22 @@
                         `;
                 box3.innerHTML += html;
               });
+            }
+            else{
+              var html = `
+              <div class="comment">
+                <div class="card-body">
+                  <p class="commentText">Hadi ilk yorumu sen yap</p>
+                </div>
+                <div class="card-footer">
+                  <h5 class="commentName">Gezgin</h5>
+                  <small class="text-body-secondary commentDate">20.02.2022</small>
+                </div>
+              </div>
+                        `;
+                box3.innerHTML = html;
+            }
+            
       }
       window.onload = function() {
         const xhr = new XMLHttpRequest();
@@ -175,24 +313,24 @@
             let cityVisit = JSON.parse(this.responseText);
             // Mevcut URL'den URLSearchParams oluşturma
             var queryParams = new URLSearchParams(window.location.search);
-
             // Belirli bir parametreyi çekme
             var sehir = queryParams.get('sehir');
-
             let cityName = document.querySelector("#cityName");
             cityName.innerHTML=sehir;
+            let img = document.querySelector(".presentationImg");
+            img.style.background=cityVisit[sehir].resim;
             let cityNameDescription = document.querySelector("#cityNameDescription");
             cityNameDescription.innerHTML = cityVisit[sehir].aciklama;
             var box = document.getElementById("cityVisit");
             cityVisit[sehir].gezilecek_yerler.forEach(function (elem) {
               var html = `
                             <div class="box">
-                              <img src="./img/araba.jpg" class="card-img-top" alt="...">
+                              <img src="${elem.img}" class="card-img-top" alt="...">
                               <div class="card-body">
                                 <h5 class="cityVisitTitle">${elem.ad}</h5>
                                 <p class="cityDescription">${elem.aciklama}</p>
                                 <div class="map">
-                                  <a href="${elem.location}" class="btn btn-primary map">Harita</a>
+                                  <a href="${elem.location}" class="btn">Harita</a>
                                 </div>
                               </div>
                             </div>
@@ -204,24 +342,21 @@
             cityVisit[sehir].yoresel_yemekler.forEach(function(ele){
               var html = `
                       <div class="box2">
-                        <img src="./img/araba.jpg" class="card-img-top" alt="...">
+                        <img src="${ele.img}" class="card-img-top" alt="${ele.ad}">
                         <div class="card-body">
                           <h5 class="cityFoodTitle">${ele.ad}</h5>
                           <p class="cityFoodDescription">${ele.aciklama}</p>
                         </div>
                       </div>
-
                         `;
                 box2.innerHTML += html;
-        
             })
             yorumGoster();
-          
           }
           };
         xhr.send();
       };
-
+      
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>

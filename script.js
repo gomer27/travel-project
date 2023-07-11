@@ -1,15 +1,9 @@
 const element = document.querySelector("#turkiye-haritasi");
 const info = document.querySelector(".il-isimleri");
 const cityName = document.querySelector("#cityName");
-document
-  .querySelector("#turkiye-haritasi")
-  .addEventListener("click", turkiyeharitasi);
 function turkiyeharitasi() {
   element.addEventListener("mouseover", function (event) {
-    if (
-      event.target.tagName === "path" &&
-      event.target.parentNode.id !== "guney-kibris"
-    ) {
+    if (event.target.tagName === "path") {
       info.innerHTML = [
         "<div>",
         event.target.parentNode.getAttribute("data-iladi"),
@@ -19,8 +13,8 @@ function turkiyeharitasi() {
   });
 
   element.addEventListener("mousemove", function (event) {
-    info.style.top = event.pageY + 25 + "px";
-    info.style.left = event.pageX + "px";
+    info.style.top = event.pageY + -40 + "px";
+    info.style.left = event.pageX + 5 + "px";
   });
 
   element.addEventListener("mouseout", function (event) {
@@ -30,9 +24,6 @@ function turkiyeharitasi() {
     if (event.target.tagName === "path") {
       const parent = event.target.parentNode;
       const id = parent.getAttribute("id");
-      if (id === "guney-kibris") {
-        return;
-      }
       window.location.href = `http://127.0.0.1:5501/city.html?sehir=${id}`;
     }
   });
@@ -71,7 +62,7 @@ menuBtn.addEventListener("click", function () {
 
 // navbar-start
 const home = document.querySelector(".home");
-home.addEventListener("mouseover", homeLine);
+home?.addEventListener("mouseover", homeLine);
 function homeLine() {
   document.querySelector("#navbar-home").classList.add("active");
   document.querySelector("#navbar-city").classList.remove("active");
@@ -79,7 +70,7 @@ function homeLine() {
   document.querySelector("#navbar-contact").classList.remove("active");
 }
 const city = document.querySelector(".city");
-city.addEventListener("mouseover", cityLine);
+city?.addEventListener("mouseover", cityLine);
 function cityLine() {
   document.querySelector("#navbar-city").classList.add("active");
   document.querySelector("#navbar-home").classList.remove("active");
@@ -87,7 +78,7 @@ function cityLine() {
   document.querySelector("#navbar-contact").classList.remove("active");
 }
 const about = document.querySelector(".about");
-about.addEventListener("mouseover", aboutLine);
+about?.addEventListener("mouseover", aboutLine);
 function aboutLine() {
   document.querySelector("#navbar-city").classList.remove("active");
   document.querySelector("#navbar-home").classList.remove("active");
@@ -95,7 +86,7 @@ function aboutLine() {
   document.querySelector("#navbar-contact").classList.remove("active");
 }
 const contact = document.querySelector(".contact");
-contact.addEventListener("mouseover", contactLine);
+contact?.addEventListener("mouseover", contactLine);
 function contactLine() {
   document.querySelector("#navbar-city").classList.remove("active");
   document.querySelector("#navbar-home").classList.remove("active");
@@ -103,25 +94,3 @@ function contactLine() {
   document.querySelector("#navbar-contact").classList.add("active");
 }
 // navbar-end
-
-// deneme start
-// var dnm = document.querySelector("#turkiye");
-// dnm.addEventListener("mouseover", dnmLoad);
-// function dnmLoad(event) {
-//   console.log(`şehir:${event.target}`);
-// }
-
-// var dnm = document.getElementById('turkiye')
-// dnm.addEventListener('change', function() {
-//   const turkiye = this.value;
-//   console.log(`değer${turkiye}`)
-// deneme end
-
-// let search = document.getElementById("searchCity");
-// function runEvents() {
-//   search.addEventListener("keyup", cityFind);
-// }
-// function cityFind(e) {
-//   const searchCity = e.target.value;
-//   console.log(searchCity);
-// }

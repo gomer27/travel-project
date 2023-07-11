@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gezgin</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="login">
+      <div class="form-box">
+        <div class="button-box">
+          <div id="toggle-btn"></div>
+          <button type="button" class="toggle-btn" onclick="login()">
+            Giriş
+          </button>
+          <button type="button" class="toggle-btn" onclick="register()">
+            Kayıt Ol
+          </button>
+        </div>
+        <form class="input-group" id="login">
+          <input
+            type="text"
+            class="input-field"
+            id="userAd2"
+            placeholder="Kullanıcı adı girin..."
+            required
+          /><input
+            type="password"
+            class="input-field"
+            id="userSifre2"
+            placeholder="Şifreyi girin..."
+            required
+          />
+          <a
+            type="button"
+            class="submit-btn"
+            onclick="userLoading()"
+            href="/index.html"
+          >
+            Giriş
+          </a>
+        </form>
+        <form class="input-group" id="register">
+          <input
+            type="text"
+            class="input-field"
+            id="userAd"
+            placeholder="Kullanıcı adı girin..."
+            required
+          /><input
+            type="password"
+            class="input-field"
+            id="userSifre"
+            placeholder="Şifreyi girin..."
+            required
+          />
+          <input
+            type="email"
+            class="input-field"
+            id="user-email"
+            placeholder="email girin..."
+            required
+          />
+          <button type="button" class="submit-btn" onclick="userAdd()">
+            Kayıt Ol
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
